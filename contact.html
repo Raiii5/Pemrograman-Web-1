@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Nusantara Burger</title>
+  <link rel="icon" type="image/x-icon" href="Image/Final Logo.png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+      <div class="logo">
+        <img src="Image/Final Logo.png" alt="Nusantara Burger Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="galery.html">Gallery</a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <div class="contact-container load-animate">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Jl. Raya Nusantara, No. 123</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone-alt"></i>
+            <p>+62 211 2345 6789</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@nusantaraburger.com</p>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="button" onclick="sendToWhatsapp()" class="btn-send">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="Image/Final Logo.png" alt="Logo" />
+        </div>
+        <p class="footer-text">&copy; 2025 Nusantara Burger. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
